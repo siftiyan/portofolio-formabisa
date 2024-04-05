@@ -1,5 +1,5 @@
 Pemenuhan penugasan javascript
-(karena tidak menemukan API yang proper, rencana sebelumnya memakai API berita unesa. namun tidak ditemukan, jadi pada akhirnya saya memakai array internal untuk ditampilkan di index melalui beruoa anggota saya)
+(karena tidak menemukan API yang proper, rencana sebelumnya memakai API berita unesa. namun tidak ditemukan, jadi pada akhirnya saya memakai array internal untuk ditampilkan di index melalui tampilan anggota saya)
 
 // array anggota
 const teamMembers = [
