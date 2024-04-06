@@ -153,8 +153,13 @@ section {
     background-color: #fff;
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
     padding: 20px;
-    text-align: center;
+    text-align: justify;
   }
+
+  p {
+    text-align: justify;
+  }
+  
   
 .about .call-us h4 {
     font-size: 24px;
