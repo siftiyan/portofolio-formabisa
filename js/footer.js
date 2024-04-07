@@ -3,7 +3,7 @@ let footer = `
     <div class="row gy-4">
         <div class="col-lg-3 col-md-12 footer-info">
             <a href="index.html" class="logo">
-            <img src="../images/portofolio image/header-formabisa.png" />
+            <img src="../images/portofolio image/logokabinet.png" />
             </a>
         </div>
 
@@ -56,7 +56,7 @@ let footerPages = `
     <div class="row gy-4">
         <div class="col-lg-3 col-md-12 footer-info">
             <a href="/" class="logo">
-            <img src="../images/portofolio image/header-formabisa.png" />
+            <img src="../images/portofolio image/logokabinet.png" />
             </a>
         </div>
 
@@ -111,7 +111,7 @@ const footerDetail = `
     <div class="row gy-4">
         <div class="col-lg-3 col-md-12 footer-info">
             <a href="/" class="logo">
-            <img src="../../images/logo-profile-formabisa.png" />
+            <img src="../../images/logokabinet.png" />
             </a>
         </div>
 

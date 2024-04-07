@@ -2,7 +2,7 @@
 
 /* Colors */
 :root {
-  --color-primary: #008374;
+  --color-primary: #0f2349;
 }
 
 a {
@@ -33,8 +33,8 @@ a:hover {
 }
 
 .header .logo img {
-  width: 80px;
-  height: 80px;
+  width: 210px;
+  height: 60px;
 }
 
 .header .logo h1 {
@@ -105,7 +105,8 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .section-header h2 {
@@ -184,7 +185,7 @@ body {
 }
 
 .card > .row > .icon {
-  background: #f96f59;
+  background: #0f2349;
   color: white;
   border-radius: 50%;
   width: 50px;
@@ -278,6 +279,7 @@ input:checked + label .description {
   background-color: var(--color-primary);
   padding: 50px 0;
   color: white;
+  margin-top: 50px;
 }
 
 .footer-info {

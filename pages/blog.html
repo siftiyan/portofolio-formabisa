@@ -13,6 +13,8 @@
     />
     <link rel="stylesheet" type="text/css" href="../css/blog.css" />
     <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Formabisa</title>
   </head>
   <body>
@@ -23,13 +25,14 @@
 
     <main class="main-content">
     <!-- ======= Breadcrumbs ======= -->
+    
     <div class="breadcrumbs">
       <div class="page-header d-flex align-items-center" style="background-image: url('');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-              <h2>Blog</h2>
-              <p>
+              <h2 data-aos="fade-up">Blog</h2>
+              <p data-aos="fade-up">
                 "Blog akan selalu diupdate setiap kali Formabisa mengadakan event baru, 
                 memastikan informasi terbaru dan kesempatan untuk berpartisipasi dalam kegiatan 
                 yang diselenggarakan."
@@ -50,9 +53,9 @@
     <!-- End Breadcrumbs -->
       <!-- ======= Recent Blog Posts Section ======= -->
       <section id="recent-posts" class="recent-posts sections-bg">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
           <div class="row gy-4">
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in-up">
               <article>
                 <div class="post-img">
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/r0YPXsjA77Y" frameborder="0" allowfullscreen></iframe>
@@ -67,7 +70,7 @@
             </div>
             <!-- End post list item -->
 
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in-up">
               <article>
                 <div class="post-img">
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/_hfKU1f3hVc" frameborder="0" allowfullscreen></iframe>
@@ -82,7 +85,7 @@
             </div>
             <!-- End post list item -->
 
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in-up">
               <article>
                 <div class="post-img">
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpUu--9PAe4" frameborder="0" allowfullscreen></iframe>
@@ -97,7 +100,7 @@
             </div>
             <!-- End post list item -->
 
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="fade-down">
               <article>
                 <div class="post-img">
                   <img
@@ -119,7 +122,7 @@
             <!-- End post list item -->
 
 
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="fade-down">
               <article>
                 <div class="post-img">
                   <img
@@ -140,7 +143,7 @@
             </div>
             <!-- End post list item -->
 
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="fade-down">
               <article>
                 <div class="post-img">
                   <img
@@ -183,6 +186,9 @@
     <!-- js -->
     <script src="../js/header.js" type="text/javascript" defer></script>
     <script src="../js/footer.js" type="text/javascript" defer></script>
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>

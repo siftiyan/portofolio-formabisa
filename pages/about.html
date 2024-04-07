@@ -13,6 +13,8 @@
     />
     <link rel="stylesheet" type="text/css" href="../css/about.css" />
     <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Formabisa</title>
 
     <style>
@@ -30,15 +32,15 @@
     <!-- Begin Main Content -->
     <main class="main-content">
       <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
           <div class="section-header">
             <h2>About</h2>
           </div>
 
           <div class="row gy-4">
             <div class="col-lg-6">
-              <h3>Forum Mahasiswa Blitar Unesa</h3>
-              <div class="image-container">
+              <h3 data-aos="fade-up">Forum Mahasiswa Blitar Unesa</h3>
+              <div class="image-container" data-aos="fade-right">
                   <img src="../images/portofolio image/berita.png" class="img-fluid rounded-4 mb-4" alt="" />
                   <div class="image-overlay">
                       <p>Berita Unesa</p>
@@ -46,7 +48,7 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="content ps-0 ps-lg-5">
+              <div class="content ps-0 ps-lg-5" data-aos="fade-left">
                 <h4>Kilas Balik</h4>
                 <br>
                 <p>
@@ -76,7 +78,7 @@
       </section>
 
             <section id="welcome">
-              <div class="container">
+              <div class="container" data-aos="fade-up">
                 <h2>Sambutan Ketua Umum - Event Welpart</h2>
                 <div class="welcome-container">
                   <div class="greet">
@@ -95,7 +97,7 @@
             </section>
 
             <section id="videos">
-              <div class="container">
+              <div class="container" data-aos="fade-up">
                   <h2>Sambutan Pembina Formabisa dan Bupati Blitar</h2>
                   <div class="video-container">
                       <div class="video">
@@ -129,6 +131,8 @@
     <!-- js -->
     <script src="../js/header.js" type="text/javascript" defer></script>
     <script src="../js/footer.js" type="text/javascript" defer></script>
-
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

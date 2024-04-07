@@ -3,8 +3,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f96f59;
+  --color-primary: #0f2349;
+  --color-secondary: #816c5d;
 }
 
 
@@ -36,8 +36,8 @@ a:hover {
 }
 
 .header .logo img {
-  width: 80px;
-  height: 80px;
+  width: 210px;
+  height: 60px;
 }
 
 .header .logo h1 {

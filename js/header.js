@@ -1,8 +1,9 @@
 const header = `
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="/" class="logo d-flex align-items-center">
-            <img src="../images/portofolio image/header-formabisa.png" alt="Formabisa Logo" />
+            <img src="../images/portofolio image/kabinet.png" alt="Formabisa Logo" />
         </a>
+        
         <!-- .navbar -->
         <nav id="navbar" class="navbar">
             <ul>
@@ -28,7 +29,7 @@ const header = `
 const headerPages = `
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="/" class="logo d-flex align-items-center">
-          <img src="../images/portofolio image/header-formabisa.png" alt="FormabisaLogo" />
+          <img src="../images/portofolio image/kabinet.png" alt="FormabisaLogo" />
         </a>
         <nav id="navbar" class="navbar">
           <ul>
@@ -55,7 +56,7 @@ const headerPages = `
 const headerDetailBlog = `
 <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
     <a href="/" class="logo d-flex align-items-center">
-        <img src="../images/portofolio image/header-formabisa.png" alt="formabisa" />
+        <img src="../images/portofolio image/kabinet.png" alt="formabisa" />
     </a>
     <nav id="navbar" class="navbar">
         <ul>
